@@ -1,0 +1,15 @@
+﻿<Window x:Class="ZadanieRekrutacyjne.DataFetch.InputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZadanieRekrutacyjne.DataFetch"
+        mc:Ignorable="d"
+        Title="Simple Data Management App - Database Connection" Height="350" Width="450">
+    <Grid>
+        <Button x:Name="EnterButton" Content="Enter" HorizontalAlignment="Center" Margin="0,259,0,0" VerticalAlignment="Top" Height="51" Width="98" Click="EnterButton_Click"/>
+        <TextBox x:Name="ServerNameBox" HorizontalAlignment="Center" Margin="0,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212"/>
+        <Label Content="Enter Server Name" HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="ZadanieRekrutacyjne.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZadanieRekrutacyjne"
+        mc:Ignorable="d"
+        Title="Simple Data Management App" Height="581" Width="820">
+    <Grid>
+        <DataGrid IsReadOnly="True" x:Name="DataGridView" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,63,0,146"/>
+        <Button Content="Add new 3 Day Prognosis Entries" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Height="47" Width="277" Click="Button_Click"/>
+        <ComboBox x:Name="SelectPageBox" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="SelectPageBox_SelectionChanged"/>
+        <Button Content="List All entries" HorizontalAlignment="Left" Margin="313,0,0,28" VerticalAlignment="Bottom" Height="47" Width="97" Click="Button_Click_2" />
+        <Button Content="Search" HorizontalAlignment="Left" Margin="160,18,0,0" VerticalAlignment="Top" Height="33" Width="143" Click="Button_Click_3"/>
+        <Button Content="Add new Entry With Current Weather" HorizontalAlignment="Left" Margin="10,0,0,62" VerticalAlignment="Bottom" Height="47" Width="277" Click="Button_Click_1"/>
+        <ComboBox x:Name="SearchWeatherTypeBox" HorizontalAlignment="Left" Margin="325,24,0,0" VerticalAlignment="Top" Width="143" />
+        <Label Content="Page Select" HorizontalAlignment="Left" Margin="35,6,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TempMinBox" HorizontalAlignment="Left" Margin="492,24,0,0" TextWrapping="Wrap" Text="-10" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TempMaxBox" HorizontalAlignment="Left" Margin="678,24,0,0" TextWrapping="Wrap" Text="999" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Temperature Min" HorizontalAlignment="Left" Margin="502,0,0,0" VerticalAlignment="Top"/>
+        <Label Content="Temperature Max" HorizontalAlignment="Left" Margin="678,0,0,0" VerticalAlignment="Top"/>
+        <Label Content="Weather Conditions" HorizontalAlignment="Left" Margin="330,0,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

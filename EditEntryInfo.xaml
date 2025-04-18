@@ -1,0 +1,21 @@
+﻿<Window x:Class="ZadanieRekrutacyjne.EditEntryInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZadanieRekrutacyjne"
+        mc:Ignorable="d"
+        Title="EditEntryInfo" Height="288" Width="353" Closing="Window_Closing">
+    <Grid>
+        <CheckBox x:Name="IsDayEdit" Content="IsDay" HorizontalAlignment="Center" Margin="0,215,0,0" VerticalAlignment="Top"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Margin="10,0,0,17" VerticalAlignment="Bottom" Width="78" Click="Button_Click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="238,0,0,17" VerticalAlignment="Bottom" Width="84" Click="Button_Click_1"/>
+        <TextBox x:Name="TemperatureEdit" HorizontalAlignment="Center" Margin="0,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228"/>
+        <TextBox x:Name="WeatherEdit" HorizontalAlignment="Center" Margin="0,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="255" Height="45"/>
+        <TextBox x:Name="DateTimeEdit" HorizontalAlignment="Center" Margin="0,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="256"/>
+        <Label Content="DateTime" HorizontalAlignment="Left" Margin="152,5,0,0" VerticalAlignment="Top"/>
+        <Label Content="WeatherType" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top"/>
+        <Label Content="Temperature at 2m" HorizontalAlignment="Center" Margin="0,156,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

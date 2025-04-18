@@ -10,4 +10,6 @@ How to set up
 3. If you have Visual Studio - you can open the ZadanieRekrutacyjne.sln file to see it in Visual studio
 4. If you want the .exe file , it is in the repository, look in /bin/Debug/net8.0-windowsZadanieRekrutacyjne.exe
 5. This application will ask you for the server name, it is the same as your computer's name , if you dont know how to check it, here is a tutorial https://www.howtogeek.com/866780/how-to-find-your-computer-name-in-windows-10/
+
+
    I used free api, so the app can do only 10000 API calls per day 
